@@ -5,9 +5,43 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" type="text/css" href="css/main.css" />
+    <link rel="stylesheet" type="text/css" href="Style/main.css" />
+    <link rel="stylesheet" type="text/css" href="Vendor/normalize.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
 </head>
 <body>
-    
+    <header class="header shadow">
+        <div class="header__type_black-container">
+        <div class="header__type_black">
+            <nav class="header__nav-container">
+                <div class="header__select select">
+                    <input class="header__select-input select__input" type="hidden" name="">
+                    <div class="select__head">RU</div>
+                    <ul class="select__list shadow" style="display: none;" id="selector">
+                        <li class="select__item">RU</li>
+                        <li class="select__item">EN</li>
+                    </ul>
+                </div>
+                <ul class="header__nav">
+                    <li class="header__nav-item">Новости и блог</li>
+                    <li class="header__nav-item">Оплата и доставка</li>
+                    <li class="header__nav-item">Контакты</li>
+                    <li class="header__nav-item">Вакансии</li>
+                </ul>
+            </nav>
+            <div class="header__searcher">
+                <input type="text" placeholder="Поиск..." maxlength="33">
+                <img src="Images/Search.svg" alt="Лупа">
+            </div>
+        </div>
+    </div>
+        <div class="header__type_white"></div>
+
+    </header>
+
+    <script src="Scripts/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="Scripts/main.js"></script>
 </body>
 </html>
