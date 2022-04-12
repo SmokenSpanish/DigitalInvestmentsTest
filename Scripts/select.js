@@ -1,15 +1,3 @@
-// const selector = document.querySelector('.header__selector');
-
-// selector.addEventListener('click', function() {
-//     selector.classList.toggle('header__selector_direction')
-// })
-
-// document.addEventListener('click', function(e) {
-//     if (e.target.id != 'selector') {
-//         selector.classList.remove('header__selector_direction')
-//     }
-//   });
-
 jQuery(($) => {
     $('.select').on('click', '.select__head', function () {
         if ($(this).hasClass('open')) {

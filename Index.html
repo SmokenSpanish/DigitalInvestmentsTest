@@ -16,6 +16,7 @@
         <div class="header__type_black-container">
         <div class="header__type_black">
             <nav class="header__nav-container">
+
                 <div class="header__select select">
                     <input class="header__select-input select__input" type="hidden" name="">
                     <div class="select__head">RU</div>
@@ -24,7 +25,8 @@
                         <li class="select__item">EN</li>
                     </ul>
                 </div>
-                <ul class="header__nav">
+
+                <ul class="header__nav" id="header__nav_type-black">
                     <li class="header__nav-item">Новости и блог</li>
                     <li class="header__nav-item">Оплата и доставка</li>
                     <li class="header__nav-item">Контакты</li>
@@ -33,29 +35,52 @@
             </nav>
             <div class="header__searcher">
                 <input type="text" placeholder="Поиск..." maxlength="33">
-                <img src="Images/Search.svg" alt="Лупа">
+                <img src="Images/Search1.svg" alt="Лупа">
             </div>
         </div>
     </div>
 
-        <div class="header__type_white">
-            <ul class="header__nav">
+        <div class="header__type_white shadow">
+            <ul class="header__nav" id="header__nav_type-white">
                 <li class="header__nav-item">Каталог</li>
-                <li class="header__nav-item">Майнинг отель</li>
+                <div class="select">
+                    <input class="select__input" type="hidden" name="">
+                    <li class="header__nav-item select__head">Майнинг отель</li>
+                    <ul class="select__list shadow" style="display: none;" id="selector">
+                        <li class="select__item">Калининская АЭС</li>
+                        <li class="select__item">ПАО "Тулачермет"</li>
+                    </ul>
+                </div>
                 <li class="header__nav-item">Лизинг</li>
                 <li class="header__nav-item">О компании</li>
             </ul>
             <div class="header__type_white-container">
-            <p class="contact">+7 (499) 877-41-45</p>
-            <a href=""><img src="./Images/Telegram.svg" alt=""></a>
-            <a href=""><img src="./Images/WhatsApp.svg" alt=""></a>
-            <a href="">Заказать звонок</a>
+                <p class="contact">+7 (499) 877-41-45</p>
+                <a href="#"><img src="./Images/Telegram.svg" alt="Телеграм"></a>
+                <a href="#"><img src="./Images/WhatsApp.svg" alt="Вконтакте"></a>
+                <a href="#">Заказать звонок</a>
             </div>
+            <a href=""><img src="./Images/Shopping-bag.svg" alt="Корзина"></a>
+            <a class="header__type_white-basket" href="#">Корзина</a>
+            <div class="menu-burger__header">
+                <span></span>
+            </div>
+
+            <div class="menu-burger__wrapper">
+                <div class="menu-burger__body shadow">
+                    <div class="menu-burger__title-container">
+                        <h1 class="menu-burger__title">Меню</h1>
+                    </div>
+                </div>
+            </div>
+
         </div>
 
     </header>
 
     <script src="Scripts/jquery-3.3.1.min.js"></script>
-    <script type="text/javascript" src="Scripts/main.js"></script>
+    <script type="text/javascript" src="Scripts/resize.js"></script>
+    <script type="text/javascript" src="Scripts/menu.js"></script>
+    <script type="text/javascript" src="Scripts/select.js"></script>
 </body>
 </html>
