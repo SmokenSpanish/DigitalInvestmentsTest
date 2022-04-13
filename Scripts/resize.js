@@ -1,7 +1,5 @@
 function resizeBlock(){
     if(window.matchMedia("screen and (max-width: 1215px)").matches) {
-        // $('.header__type_white').prepend($('#vk'));
-        // $('.header__type_white').prepend($('#telegram'));
         $('.header__type_white').prepend($('.social'));
         $('.header__type_white').prepend($('.header__select'));
         $('.select__list').removeClass('shadow');

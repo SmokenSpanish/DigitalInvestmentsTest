@@ -20,7 +20,6 @@
     width: 100%;
     display: flex;
     justify-content: space-between;
-    /* align-items: center; */
     margin: 0 auto;
 }
 
@@ -294,7 +293,8 @@ a {
 @media screen and (max-width:1215px) {
 
     .header__type_white-container {
-        margin-left: 20px;
+        margin-left: 9px;
+        margin-right: 12px;
     }
 
     .header__type_white {
@@ -340,7 +340,18 @@ a {
     }
 
     .social {
-        margin-left: 132px;
+        margin-left: 142px;
+    }
+
+    .contact {
+        font-weight: 400;
+        font-size: 14px;
+    }
+
+    .header__callback {
+        font-weight: 400;
+        font-size: 12px;
+        padding-left: 30px;
     }
 
     .menu-burger__header span, .menu-burger__header:after, 
@@ -387,7 +398,7 @@ a {
     }
 
     .menu-burger__body {
-        width: 323px;
+        width: 300px;
         margin-left: auto;
         background-color: #FFFFFF;
         overflow: auto;
@@ -418,6 +429,7 @@ a {
     .header__searcher input{
         background-color: rgba(170, 177, 183, .1);
         color: #181A31;
+        max-width: 252px;
     }
 
     .menu-burger__body .header__nav {
@@ -441,6 +453,7 @@ a {
     .header__type_white .select__list {
         position: static;
         width: 100%;
+        margin-bottom: 10px;
     }
 
     .select__list .select__item {
@@ -460,10 +473,9 @@ a {
 
     .menu-burger__title-container {
         margin: 0 0 16px 24px;
-        padding-top: 24px;
+        padding-top: 5px;
     }
 }
-
 
 @media screen and (max-width: 634px) { 
 
@@ -496,6 +508,7 @@ a {
         display: flex;
         justify-content: space-between;
         align-items: end;
+        padding-top: 23px;
         margin: 0 0 24px 12px;
     }
 
@@ -529,7 +542,6 @@ a {
 
     .contact {
         text-align: start;
-        /* margin-right: 33px; */
         font-weight: 600;
         font-size: 22px;
         line-height: 32px;
@@ -546,6 +558,7 @@ a {
 
     .menu-burger__body .header__type_white-container {
         margin: 0;
+        margin-top: 17px;
         padding: 12px;
         display: flex;
         flex-wrap: wrap;
@@ -561,5 +574,10 @@ a {
 
     .header__type_white-container img {
         width: 25px;
+    }
+
+    .header__nav-item {
+        font-size: 16px;
+        line-height: 20px;
     }
 }
