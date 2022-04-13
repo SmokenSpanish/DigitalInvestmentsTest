@@ -13,6 +13,7 @@ function resizeBlock(){
     } if(window.matchMedia("screen and (max-width: 634px)").matches) {
         $('.menu-burger__title-container').append($('.header__select'));
         $('.menu-burger__title-container').append($('.header__searcher'));
+        $('.menu-burger__body').append($('.header__type_white-container'));
     } 
 }
 
