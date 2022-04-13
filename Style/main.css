@@ -441,8 +441,12 @@
 
 
 @media screen and (max-width: 634px) { 
-    .header__type_white-container, .select__head, .header__type_white-basket {
+    .header__type_white-container, .header__type_white-basket {
         display: none;
+    }
+
+    .select__head {
+        border: 1px solid red;
     }
 
     .header__type_white a {
