@@ -393,6 +393,7 @@
 
     .header__searcher input{
         background-color: rgba(170, 177, 183, .1);
+        color: #181A31;
     }
 
     .menu-burger__body .header__nav {
@@ -457,6 +458,11 @@
         margin-right: 18px;
     }
 
+    .header__type_white .select__list {
+        top: 120%;
+        left: 0;
+    }
+
     .header__searcher {
         border-bottom: none;
         padding-bottom: 0;
@@ -477,7 +483,8 @@
         right: 0px;
     }
 
-    .header__select {
-        
+    .header__select .select__list {
+        width: 216px;
+        position: absolute;
     }
 }
