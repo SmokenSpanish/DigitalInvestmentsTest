@@ -1,5 +1,8 @@
 function resizeBlock(){
     if(window.matchMedia("screen and (max-width: 1215px)").matches) {
+        // $('.header__type_white').prepend($('#vk'));
+        // $('.header__type_white').prepend($('#telegram'));
+        $('.header__type_white').prepend($('.social'));
         $('.header__type_white').prepend($('.header__select'));
         $('.select__list').removeClass('shadow');
         $('.menu-burger__body').append($('.header__searcher'));
@@ -13,6 +16,7 @@ function resizeBlock(){
     } if(window.matchMedia("screen and (max-width: 634px)").matches) {
         $('.menu-burger__title-container').append($('.header__select'));
         $('.menu-burger__title-container').append($('.header__searcher'));
+        $('.header__type_white-container').append($('.social'));
         $('.menu-burger__body').append($('.header__type_white-container'));
     } 
 }
