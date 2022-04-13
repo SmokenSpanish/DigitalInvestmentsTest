@@ -445,8 +445,12 @@
         display: none;
     }
 
-    .select__head {
-        border: 1px solid red;
+    .header__select {
+        margin-right: 20px;
+    }
+
+    .menu-burger__title {
+        margin: 0;
     }
 
     .header__type_white a {
@@ -463,12 +467,13 @@
     .menu-burger__title-container {
         display: flex;
         justify-content: space-between;
-        margin: 0 0 16px 12px;
+        align-items: center;
+        margin: 0 0 24px 12px;
     }
 
     .header__searcher img {
         position: absolute;
-        top: 22px;
+        top: 2px;
         right: 0px;
     }
 
